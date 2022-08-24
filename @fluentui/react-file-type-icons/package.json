@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      "@fluentui/react-file-type-icons@8.0.4",
+      "/Users/kinjalchauhan/Documents/LiteraTransact/tm/app/frontend"
+    ]
+  ],
+  "_from": "@fluentui/react-file-type-icons@8.0.4",
+  "_id": "@fluentui/react-file-type-icons@8.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-WQjwWYoYkU+kgwp61vb28e2zzB7JSseaGAX5K4ipKZ680gQuul4uy9xIU4t75QduStlPdvo9UFtTcEwRCL/kCQ==",
+  "_location": "/@fluentui/react-file-type-icons",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@fluentui/react-file-type-icons@8.0.4",
+    "name": "@fluentui/react-file-type-icons",
+    "escapedName": "@fluentui%2freact-file-type-icons",
+    "scope": "@fluentui",
+    "rawSpec": "8.0.4",
+    "saveSpec": null,
+    "fetchSpec": "8.0.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@fluentui/react-file-type-icons/-/react-file-type-icons-8.0.4.tgz",
+  "_spec": "8.0.4",
+  "_where": "/Users/kinjalchauhan/Documents/LiteraTransact/tm/app/frontend",
+  "bugs": {
+    "url": "https://github.com/microsoft/fluentui/issues"
+  },
+  "dependencies": {
+    "@fluentui/set-version": "^8.0.2",
+    "@fluentui/style-utilities": "^8.0.4",
+    "tslib": "^1.10.0"
+  },
+  "description": "Fluent UI React file type icon set.",
+  "devDependencies": {
+    "@fluentui/eslint-plugin": "^1.1.0",
+    "@fluentui/scripts": "^1.0.0",
+    "@types/react": "16.9.42",
+    "react": "16.8.6",
+    "react-app-polyfill": "~1.0.1"
+  },
+  "homepage": "https://github.com/microsoft/fluentui#readme",
+  "license": "MIT",
+  "main": "lib-commonjs/index.js",
+  "module": "lib/index.js",
+  "name": "@fluentui/react-file-type-icons",
+  "peerDependencies": {
+    "@types/react": ">=16.8.0 <18.0.0",
+    "react": ">=16.8.0 <18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microsoft/fluentui.git"
+  },
+  "scripts": {
+    "build": "just-scripts build",
+    "clean": "just-scripts clean",
+    "code-style": "just-scripts code-style",
+    "just": "just-scripts",
+    "lint": "just-scripts lint",
+    "test": "just-scripts test"
+  },
+  "sideEffects": [
+    "lib/version.js"
+  ],
+  "typings": "lib/index.d.ts",
+  "version": "8.0.4"
+}

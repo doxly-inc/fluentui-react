@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      "@fluentui/merge-styles@8.1.2",
+      "/Users/kinjalchauhan/Documents/LiteraTransact/tm/app/frontend"
+    ]
+  ],
+  "_from": "@fluentui/merge-styles@8.1.2",
+  "_id": "@fluentui/merge-styles@8.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-r0EGKfJUjZw9yJ21VMXjaqLoujvBkRIWRQVMM6CUxbY+02dhKUt6Sa9QA/8m8klsEWBENOaKZ4uX5U2vWWBlyw==",
+  "_location": "/@fluentui/merge-styles",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@fluentui/merge-styles@8.1.2",
+    "name": "@fluentui/merge-styles",
+    "escapedName": "@fluentui%2fmerge-styles",
+    "scope": "@fluentui",
+    "rawSpec": "8.1.2",
+    "saveSpec": null,
+    "fetchSpec": "8.1.2"
+  },
+  "_requiredBy": [
+    "/@fluentui/foundation-legacy",
+    "/@fluentui/react",
+    "/@fluentui/react-focus",
+    "/@fluentui/style-utilities",
+    "/@fluentui/theme",
+    "/@fluentui/utilities"
+  ],
+  "_resolved": "https://registry.npmjs.org/@fluentui/merge-styles/-/merge-styles-8.1.2.tgz",
+  "_spec": "8.1.2",
+  "_where": "/Users/kinjalchauhan/Documents/LiteraTransact/tm/app/frontend",
+  "bugs": {
+    "url": "https://github.com/microsoft/fluentui/issues"
+  },
+  "dependencies": {
+    "@fluentui/set-version": "^8.1.2",
+    "tslib": "^2.1.0"
+  },
+  "description": "Style loading utilities.",
+  "devDependencies": {
+    "@fluentui/eslint-plugin": "^1.3.1",
+    "@fluentui/scripts": "^1.0.0"
+  },
+  "homepage": "https://github.com/microsoft/fluentui#readme",
+  "license": "MIT",
+  "main": "lib-commonjs/index.js",
+  "module": "lib/index.js",
+  "name": "@fluentui/merge-styles",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microsoft/fluentui.git"
+  },
+  "scripts": {
+    "build": "just-scripts build",
+    "bundle": "just-scripts bundle",
+    "clean": "just-scripts clean",
+    "code-style": "just-scripts code-style",
+    "just": "just-scripts",
+    "lint": "just-scripts lint",
+    "start-test": "just-scripts jest-watch",
+    "test": "just-scripts test"
+  },
+  "sideEffects": [
+    "lib/version.js"
+  ],
+  "typings": "lib/index.d.ts",
+  "version": "8.1.2"
+}

@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+/* eslint-disable */
+var load_themed_styles_1 = require("@microsoft/load-themed-styles");
+load_themed_styles_1.loadStyles([{ "rawString": ".root_de478240{display:inline-block;vertical-align:middle;speak:none;width:1em;height:1em}.svg_de478240{height:100%;fill:currentColor;vertical-align:top}" }]);
+exports.root = "root_de478240";
+exports.svg = "svg_de478240";
+//# sourceMappingURL=SvgIcon.scss.js.map
